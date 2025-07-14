@@ -1,0 +1,79 @@
+
+/* Contact Section */
+.contact {
+  padding: 5rem 0;
+  background-color: #fafafa;
+}
+
+.contact .badge {
+  background-color: rgba(15, 23, 42, 0.1);
+  color: #0f172a;
+}
+
+.contact .section-title,
+.contact .section-description {
+  color: #171717;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .contact-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.contact-card,
+.form-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #e4e4e7;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover,
+.form-card:hover {
+  box-shadow: 0 10px 25px -5px rgb(16, 183, 127,0.4);
+  transform: translateY(-2px);
+}
+
+.contact-title,
+.form-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #171717;
+  margin-bottom: 0.5rem;
+}
+
+.contact-description,
+.form-description {
+  color: #737373;
+  margin-bottom: 1.5rem;
+}
+
+.contact-details {
+  margin-bottom: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  color: #171717;
+}
+
+.contact-item .icon {
+  color: #0f172a;
+}
+
+.contact-social {
+  display: flex;
+  gap: 1rem;
+}
